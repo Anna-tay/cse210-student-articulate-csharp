@@ -76,6 +76,8 @@ namespace Unit04.Game.Services
         /// Draws the given list of actors on the screen.
         /// </summary>
         /// <param name="actors">The list of actors to draw.</param>
+
+        //comment this stuff out 
         public void DrawActors(List<Actor> actors)
         {
             foreach (Actor actor in actors)

@@ -88,6 +88,8 @@ namespace Unit04.Game.Directing
         {
             List<Actor> actors = cast.GetAllActors();
             videoService.ClearBuffer();
+            
+            //commment this out 
             videoService.DrawActors(actors);
             videoService.FlushBuffer();
         }
